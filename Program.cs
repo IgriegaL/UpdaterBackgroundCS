@@ -1,12 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
 using System;
 using System.Diagnostics;
 using System.IO.Compression;
 using System.Net;
 using System.Reflection;
-
-
-Console.WriteLine(" - Begin / Download ");
 
 /* ---------- Begin variables ---------- */
 
@@ -43,6 +39,11 @@ void DownloadZip()
     {
         // Create a new WebClient instance.
         WebClient myWebClient = new WebClient();
+
+                
+        // credentials
+        // myWebClient.Credentials = new NetworkCredential("user", "pass");
+        
         Console.WriteLine("Downloading File \"{0}\" from \"{1}\" .......\n\n", fileName, myStringWebResource);
         // Download the Web resource and save it into the current filesystem folder.
         try
