@@ -10,7 +10,7 @@ Console.WriteLine(" - Begin / Download ");
 
 /* ---------- Begin variables ---------- */
 
-// rutas relativas :
+// relatives routes :
 string current =  Directory.GetCurrentDirectory();
 
 string destinationDirectoryName = current;
