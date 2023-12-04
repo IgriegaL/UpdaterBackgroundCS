@@ -15,3 +15,4 @@ C:\Users\IgriegaPc\source\repos\updater\obj\Release\net7.0\ref\updater.dll
 C:\Users\IgriegaPc\source\repos\updater\bin\Release\net7.0\Newtonsoft.Json.dll
 C:\Users\IgriegaPc\source\repos\updater\obj\Release\net7.0\updater.csproj.AssemblyReference.cache
 C:\Users\IgriegaPc\source\repos\updater\obj\Release\net7.0\updater.csproj.CopyComplete
+C:\Users\IgriegaPc\source\repos\updater\obj\Release\net7.0\updater.sourcelink.json

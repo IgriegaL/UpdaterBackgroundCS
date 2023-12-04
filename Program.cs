@@ -3,32 +3,39 @@ using System;
 using System.Diagnostics;
 using System.IO.Compression;
 using System.Net;
+using System.Reflection;
 
 
 Console.WriteLine(" - Begin / Download ");
 
+/* ---------- Begin variables ---------- */
+
+// rutas relativas :
+string current =  Directory.GetCurrentDirectory();
+
+string destinationDirectoryName = current;
+string destinationDirectoryNamewithzip = Path.Combine(destinationDirectoryName, "prueba.zip");
+
+string exeOutside = Path.Combine(destinationDirectoryName, "prueba.exe");
+string newFolder = Path.Combine(destinationDirectoryName, "Versions");
+
+// other variables :
 string remoteUri = "http://localhost/";
 string Name = @"prueba.zip";
-string RemoteJson = "jsonRemoto.json";
 string fileName = Name, 
 myStringWebResource = null;
+myStringWebResource = remoteUri + fileName;
 
-string destinationDirectoryName = @"C:\Users\IgriegaPc\Desktop\realeasesPrueba";
-string destinationDirectoryNamewithzip = @"C:\Users\IgriegaPc\Desktop\realeasesPrueba\prueba.zip";
-string exeOutside = @"C:\Users\IgriegaPc\Desktop\realeasesPrueba\prueba.exe";
 bool overwriteFiles = true;
 
-myStringWebResource = remoteUri + fileName;
-string myStringJsonRemte = remoteUri + fileName;
+/* ---------- End variables ---------- */
 
-string jsonUnoDirect = @".\jsonUno.json";
-
-
-string version2 = "";
-
+/* ---------- Begin process ---------- */
 DownloadZip();
 DecompressAndOverDrive();
 MoveAndOpen();
+/* ---------- End process ---------- */
+
 
 void DownloadZip()
 {
@@ -69,13 +76,8 @@ void DecompressAndOverDrive()
     }
 }
 
-// move
-
 void MoveAndOpen()
 {
-    // Specify the current path of the .zip file
-    string newFolder = destinationDirectoryName + @"\Versions";
-    string moveTo = @"C:\Users\IgriegaPc\Desktop\realeasesPrueba\Versions";
 
     //string newFolder = "Versions";
     string newName = "Respaldo";
@@ -97,10 +99,13 @@ void MoveAndOpen()
         }
 
         // Increment the version using the current date and time
-        string version = $"v_{DateTime.Now:yyyyMMddHHmm}";
+        string version = $"{DateTime.Now:yyyyMMddHHmm}";
+
+        // obtain AssemblyVersion version
+        string AssemblyVersion = Assembly.GetEntryAssembly().GetName().Version.ToString();
 
         // Create the new file path with the updated name and version
-        string newFilePath = Path.Combine(newFolder, $"{newName}_{version}.zip");
+        string newFilePath = Path.Combine(newFolder, $"{newName}_V_{AssemblyVersion}_T_{version}.zip");
 
         // Copy the original file to the new file path
         try
