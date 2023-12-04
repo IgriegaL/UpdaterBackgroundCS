@@ -1,0 +1,6 @@
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater\updater.exe
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater\updater.dll
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater\updater.deps.json
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater\updater.runtimeconfig.json
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater\updater.pdb
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater\Newtonsoft.Json.dll

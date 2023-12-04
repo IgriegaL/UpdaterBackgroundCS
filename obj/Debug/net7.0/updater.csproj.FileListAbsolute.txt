@@ -1,0 +1,17 @@
+C:\Users\IgriegaPc\source\repos\updater\bin\Debug\net7.0\updater.exe
+C:\Users\IgriegaPc\source\repos\updater\bin\Debug\net7.0\updater.deps.json
+C:\Users\IgriegaPc\source\repos\updater\bin\Debug\net7.0\updater.runtimeconfig.json
+C:\Users\IgriegaPc\source\repos\updater\bin\Debug\net7.0\updater.dll
+C:\Users\IgriegaPc\source\repos\updater\bin\Debug\net7.0\updater.pdb
+C:\Users\IgriegaPc\source\repos\updater\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.csproj.AssemblyReference.cache
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.AssemblyInfoInputs.cache
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.AssemblyInfo.cs
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.csproj.CoreCompileInputs.cache
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.csproj.CopyComplete
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.dll
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\refint\updater.dll
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.pdb
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\updater.genruntimeconfig.cache
+C:\Users\IgriegaPc\source\repos\updater\obj\Debug\net7.0\ref\updater.dll

@@ -1,0 +1,5 @@
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater.exe
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater.dll
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater.deps.json
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater.runtimeconfig.json
+C:\Users\IgriegaPc\Desktop\realeasesPrueba\updater.pdb
